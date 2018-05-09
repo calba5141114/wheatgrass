@@ -1,0 +1,21 @@
+{
+  "name": "wheatgrass",
+  "version": "1.0.0",
+  "description": "A investment app demo ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Invest",
+    "WheatGrass",
+    "FruitSmoothie"
+  ],
+  "author": "Carlos Alba",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "express": "^4.16.3",
+    "pug": "^2.0.3"
+  }
+}

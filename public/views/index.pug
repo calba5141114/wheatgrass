@@ -1,0 +1,26 @@
+
+doctype html
+head
+    title Hello World
+    meta(charset='UTF-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    link(href='../css/index/index.min.css', rel='stylesheet')
+    link(href="../bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet")
+    script(src="../bower_components/scrollreveal/dist/scrollreveal.min.js")
+
+div(class="container")
+ br
+ h1(class="rev text-center") Hello World
+ p(class="rev") How are you doing my freind I am ready to continue on with our proposal date 
+   | as long as i can continue my personal works.
+ span(class="rev") 
+  small Hello I am a small text within a span element
+ br
+ button(class="btn btn-primary" id="sample_button") Press Me.
+ div(id="content_area")
+ br
+ include about.pug
+
+
+
+script(src="../src/index.js")
