@@ -1,0 +1,12 @@
+
+br
+form(action='http://localhost:3000/process_get', method='GET' class="form-group w-50")
+    input( class="form-control" type='text', name='first_name' placeholder="first name")
+    br
+    input(class="form-control"  type='text', name='last_name' placeholder="last name")
+    br
+    select(class="form-control" name='gender') 
+        option(value='Male') Male
+        option( value='Female') Female
+    br
+    input(class="btn btn-dark" type='submit', value='submit')
