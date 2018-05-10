@@ -1,4 +1,21 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto");
-body {
-  font-family: 'Roboto', sans-serif;
+.bg-img {
+  background-image: url("../../assets/random/coffeeshop.jpg");
+  max-width: 100%;
+  height: 45vw;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+}
+
+.bg-img p {
+  position: absolute;
+  bottom: 10%;
+  right: 10%;
+  font-weight: 100;
+  color: white;
+}
+
+.bg-img h1 {
+  font-weight: 300;
 }

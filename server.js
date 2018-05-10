@@ -16,17 +16,8 @@ app.get('/about', (req, res) => {
     res.render('about');
 });
 
-
-// retrieving user data from front end on form click.
-app.get('/process_get', (req, res) =>{
-    response = {
-        first_name : req.query.first_name,
-        last_name : req.query.last_name,
-        gender: req.query.gender
-        };
-
-    console.log(response);
-    res.end(JSON.stringify(response));
+app.get('/team', (req, res)=>{
+res.render('team');
 });
 
 

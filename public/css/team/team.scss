@@ -1,0 +1,17 @@
+.profile {
+    padding: 1vw;
+    display: flex;
+    flex-direction: row;
+    img {
+        max-width: 150px;
+        max-height: 150px;
+        border-radius: 50%;
+    }
+    p {
+        letter-spacing: 0.09vw;
+    }
+    .content {
+        //   margin-left: 3vw;
+        margin: 5vw;
+    }
+}

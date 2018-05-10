@@ -1,0 +1,15 @@
+{
+  "name": "public",
+  "version": "1.0.0",
+  "description": "The Frontend for Wheatgrass",
+  "main": "index.js",
+  "author": "Carlos Alba",
+  "license": "MIT",
+  "private": null,
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.3",
+    "scrollreveal": "^3.4.0"
+  }
+}

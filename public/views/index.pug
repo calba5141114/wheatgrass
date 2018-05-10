@@ -5,12 +5,19 @@ head
     meta(charset='UTF-8')
     meta(name='viewport', content='width=device-width, initial-scale=1')
     link(href='../css/index/index.min.css', rel='stylesheet')
-    link(href="../bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet")
-    script(src="../bower_components/scrollreveal/dist/scrollreveal.min.js")
-div(class="container-fluid")
-                            include navbar.pug
-div(class="container")
-                      include get_info.pug
+    link(href="../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet")
+    script(src="../node_modules/scrollreveal/dist/scrollreveal.min.js")
 
 
+include navbar.pug
+include bg-img-main.pug
+div.container
+    h1 Wheatgrass wants to empower all members of a community.
+    p Everyone has thought of joining a business venture but the barrier to entry has always been too high. Wheatgrass aims to lower this by allowing the community to fund memebers ventures and to take part in the development of a new business.
+
+
+
+script(src="../node_modules/jquery/dist/jquery.min.js")
+script(src="../node_modules/popper.js/dist/popper.min.js")
+script(src="../node_modules/bootstrap/dist/js/bootstrap.js")
 script(src="../src/index.js")
